@@ -39,109 +39,27 @@
   <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg">
   <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg">
 
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+  <script> 
+    $(function(){
+      $("#header").load("headernav.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+
 </head>
 
 <body>
 
+  <div id="header"></div>
+
   <!-- 
     - #HEADER
   -->
-
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/gb.png" width="74" height="24" alt="Adex home" class="logo-light">
-
-        <img src="./assets/images/gb.png" width="74" height="24" alt="Adex home" class="logo-dark">
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/gb.png" width="74" height="24" alt="Adex home">
-          </a>
-
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
-        </div>
-
-        <ul class="navbar-list">
-
-          <li>
-            <a href="index.html" class="navbar-link">Home</a>
-          </li>
-
-          <li>
-            <a href="header.html" class="navbar-link">About Us</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Projects</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Blog</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Contact</a>
-          </li>
-        </ul>
-
-        <div class="wrapper">
-          <a href="mailto:info@gabsrclc.com" class="contact-link">info@gabsrclc.com</a>
-          <a href="tel:+233207087945" class="contact-link">(+233) 20 708 7945</a>
-        </div>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="#" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </nav>
-
-      <a href="#" class="btn btn-primary">Free Trial</a>
-
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
-      </button>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
-  </header>
 
 
   <main>
@@ -271,8 +189,7 @@
                 <h3 class="h4 card-title">Secure Payments</h3>
 
                 <p class="card-text">
-                  Nulla vitae elit libero, a pharetra augue. Donec id elit non mi porta gravida at eget metus cras
-                  justo.
+                  Text goes here 0
                 </p>
 
                 <a href="#" class="btn-text">
@@ -372,9 +289,7 @@
                   </h3>
 
                   <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
+                    Text goes here 1
                   </p>
 
                 </div>
@@ -392,9 +307,7 @@
                   </h3>
 
                   <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
+                    Text goes here 2
                   </p>
 
                 </div>
@@ -412,9 +325,7 @@
                   </h3>
 
                   <p class="accordion-content">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo
-                    sit amet risus. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna,
-                    vel.
+                    Text goes here 3
                   </p>
 
                 </div>
@@ -451,9 +362,7 @@
               We make your spending stress-free for you to have the perfect control.
             </h2>
 
-            <p class="section-text">
-              Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras justo odio,
-              dapibus ac facilisis in, egestas eget quam. Praesent commodo cursus.
+            <p class="section-text">Text goes here 4
             </p>
 
             <ul class="feature-list">
@@ -466,7 +375,7 @@
                   </div>
 
                   <span class="span">
-                    Aenean quam ornare. Curabitur blandit.
+                    Text goes here 5
                   </span>
 
                 </div>
@@ -480,7 +389,7 @@
                   </div>
 
                   <span class="span">
-                    Nullam quis risus eget urna mollis ornare.
+                    Text goes here 6
                   </span>
 
                 </div>
@@ -494,7 +403,7 @@
                   </div>
 
                   <span class="span">
-                    Etiam porta euismod malesuada mollis.
+                    Text goes here 7
                   </span>
 
                 </div>
@@ -508,7 +417,7 @@
                   </div>
 
                   <span class="span">
-                    Vivamus sagittis lacus vel augue rutrum.
+                    Text goes here 8
                   </span>
 
                 </div>
@@ -614,7 +523,7 @@
                     <li class="card-meta-item">
                       <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
 
-                      <time class="meta-text" datetime="2022-04-14">14 Apr 2022</time>
+                      <time class="meta-text" datetime="today">14 Apr 2022</time>
                     </li>
 
                     <li class="card-meta-item">
@@ -730,7 +639,7 @@
             Join our STATA class and increase your opportunities of finding a research-related job.
           </h2>
 
-          <a href="#" class="btn btn-primary">Try it For Free</a>
+          <a href="#" class="btn btn-primary">Learn more</a>
 
         </div>
       </section>
@@ -746,123 +655,6 @@
     - #FOOTER
   -->
 
-  <footer class="footer">
-    <div class="container grid-list">
-
-      <div class="footer-brand">
-
-        <a href="#" class="logo">
-          <img src="./assets/images/gb.png" width="74" height="24" alt="Adex home">
-        </a>
-
-        <p class="footer-text">
-          &copy; 2023 gabsrclc.com<br> All rights reserved
-        </p>
-
-        <ul class="social-list">
-
-          <li>
-            <a href="https://www.facebook.com/kojoponq" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.twitter.com/siabanku" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.linkedin.com/in/markasare" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://www.instagram.com/kojoponk/" class="social-link">
-              <ion-icon name="logo-instagram"></ion-icon>
-            </a>
-          </li>
-
-          <li>
-            <a href="https://github.com/markasare/" class="social-link">
-              <ion-icon name="logo-github"></ion-icon>
-            </a>
-          </li>
-
-        </ul>
-
-      </div>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Get in Touch</p>
-        </li>
-
-        <li>
-          <address class="footer-text">
-            Plot # 5, Haatso-Ecomog, Accra, Ghana
-          </address>
-        </li>
-
-        <li>
-          <a href="mailto:gabsrclc.com" class="footer-link">info@gabsrclc.com</a>
-        </li>
-
-        <li>
-          <a href="tel:+233207087945" class="footer-link">(+233) 20 708 7945</a>
-        </li>
-
-      </ul>
-
-      <ul class="footer-list">
-
-        <li>
-          <p class="h4 footer-list-title">Learn More</p>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">About Us</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Our Story</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Projects</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Terms of Use</a>
-        </li>
-
-        <li>
-          <a href="#" class="footer-link">Privacy Policy</a>
-        </li>
-
-      </ul>
-
-      <div class="footer-list">
-
-        <p class="h4 footer-list-title">Our Newsletter</p>
-
-        <p class="footer-text">
-          Subscribe to our newsletter to get our news & deals delivered to you.
-        </p>
-
-        <form action="" class="input-wrapper">
-          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
-
-          <button type="submit" class="submit-btn">Join</button>
-        </form>
-
-      </div>
-
-    </div>
-  </footer>
 
 
 
@@ -878,7 +670,7 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
+  <div id="footer"></div>
 </body>
 
 </html>

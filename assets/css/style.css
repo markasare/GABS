@@ -90,7 +90,17 @@
 
 
 
+.headeranchor {
+  color: rgb(237, 240, 224);
+  text-align: center;
+}
+h2 {
+  display: inline-block;
+}
 
+a {
+  float: left;
+}
 
 /*-----------------------------------*\
   #RESET
@@ -159,14 +169,14 @@ body.nav-active { overflow: hidden; }
 ::-webkit-scrollbar-thumb:hover { background-color: hsl(0, 0%, 70%); }
 
 
-
+#more {display: none;}
 
 
 /*-----------------------------------*\
   #REUSED STYLE
 \*-----------------------------------*/
 
-.container { padding-inline: 16px; }
+.container { padding-inline: 13px; }
 
 .social-list {
   display: flex;
@@ -387,13 +397,13 @@ body.nav-active { overflow: hidden; }
 \*-----------------------------------*/
 
 .hero {
-  padding-block-start: calc(var(--section-padding) + 70px);
+  padding-block-start: calc(var(--section-padding) + 30px);
   text-align: center;
 }
 
 .hero .container {
   display: grid;
-  gap: 70px;
+  gap: 30px;
 }
 
 .hero-title { color: var(--white); }
@@ -1110,5 +1120,32 @@ body.nav-active { overflow: hidden; }
    */
 
   .feature-list { grid-template-columns: 1fr 1fr; }
+
+}
+
+
+
+/******** CLASS SELECTORS *****************/
+.myphoto{
+  max-width: 30%
+}
+
+.circular{
+  border-radius: 100%
+}
+
+.longtext{
+  width: 85%
+}
+
+/************** ID SELECTORS *****************/
+#heading {
+  color: rgb(231, 242, 187);
+}
+
+.ordinarytext {
+  font-size: var(--fs-9);
+  color: var(--white);
+  margin-block: 10px 10px;
 
 }

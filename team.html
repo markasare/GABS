@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Our Team</title>
+  <meta name="title" content="GABS">
+  <meta name="description" content="We are a research and development company.">
+
+  <!-- 
+    - favicon
+  -->
+  
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-bg.jpg">
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+</script>
+  <script> 
+    $(function(){
+      $("#header").load("headernav.html"); 
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+<script>
+    function readmore() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+</head>
+
+<body>
+
+  <div id="header"></div>
+  <!-- 
+    - #HEADER
+  -->
+
+
+  <main>
+  <article>
+
+    <!-- 
+      - #HERO
+    -->
+   
+    <section class="section hero has-bg-image" aria-label="home"
+      style="background-image: url('./assets/images/hero-bg.jpg')">
+      <h1 class="h1 hero-title"><center><u>Our team</u></center></h1>
+      <div class="container">
+
+        <div class="hero-content">
+          
+          <table cellspacing="25">
+            <tr>
+              <td><center><img class="myphoto circular" src="./assets/images/George.jpeg" alt="George Asare's image"></center></td>
+            </tr>
+            <tr>
+              <td >
+                <div class="headeranchor">
+                  <h2>George Asare</h2><a href="https://www.linkedin.com/in/george-asare-b5943b9b/" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+              </div> <em>
+                  <p class="headeranchor">Chief Executive Officer
+                  </p>
+                </em>
+
+                <div class="ordinarytext">George Asare holds an MBA in Accounting and Finance from the University of Professional Studies,
+                     Accra and a Bachelor of Arts degree in Economics with Philosophy from the University of Ghana, Legon.
+                      He worked with the Institute of Statistical, Social and Economic Research (ISSER) at the University of Ghana. George has been the 
+                      Chief Executive Officer and the Managing Director since the inception of the company.
+                </div>
+              </td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="hero-slider">
+          <table cellspacing="25">
+            <tr>
+              <td><center><img class="myphoto circular" src="./assets/images/default.jpeg" alt="Mark Asare's image"></center></td>
+            </tr>
+            <tr>
+              <td >
+                <div class="headeranchor">
+                  <h2>Albert Opoku Frimpong, Ph.D</h2><a href="https://www.linkedin.com/in/dr-albert-opoku-frimpong-2093b3173/" class="social-link">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+              </div> <em>
+                  <p class="headeranchor">Director and Research Consultant
+                  </p>
+                </em>
+                <div class="ordinarytext">
+                  Dr. Frimpong is an Economist. He is a Director at GABS Research and a Lecturer at 
+                  University of Professional Studies, Accra (UPSA). He served as a consultant for a number 
+                  of projects at GABS Research prior to his appointment as a Director. His research interests 
+                  are, but not limited to, health economics and development economics issues.</div>
+              </td>
+            </tr>
+          </table>
+        </div>
+    </div>
+
+  <div class="container">
+
+    <div class="hero-content">
+      
+      <table cellspacing="25">
+        <tr>
+          <td><center><img class="myphoto circular" src="./assets/images/default.jpeg" alt="George Asare's image"></center></td>
+        </tr>
+        <tr>
+          <td >
+            <div class="headeranchor">
+              <h2>Rose Yaa Asare</h2><a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+          </div> <em>
+              <p class="headeranchor">Administrative Secretary and Principal Research Assistant
+              </p>
+            </em>
+
+            <div class="ordinarytext">
+              Rose Yaa Asare holds a Master of Arts (MA) degree in Migration Studies and a Bachelor 
+              of Arts degree in Psychology with Sociology from the University of Ghana, Legon. She 
+              worked with the Institute of Statistical, Social and Economic Research (ISSER) at the 
+              University of Ghana as a research assistant after her first degree for the period 2010-2011. 
+              While at ISSER, Rose worked as a research assistant on many projects such as Youth 
+              Savings Assessment Project, and Millennium Development Authority’s Farmer Based 
+              Organisations Evaluation (MiDA-FBO) surveys. Aside her administrative roles, Rose 
+              designs CSPro setup for data entry, co-ordinates data entry and post-coding of 
+              questionnaires.
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="hero-slider">
+      <table cellspacing="25">
+        <tr>
+          <td><center><img class="myphoto circular" src="./assets/images/Prince.jpeg" alt="Mark Asare's image"></center></td>
+        </tr>
+        <tr>
+          <td >
+            <div class="headeranchor">
+              <h2>Prince Mensah</h2><a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+          </div> <em>
+              <p class="headeranchor">CAPI Developer / Data Analyst
+              </p>
+            </em>
+            <div class="ordinarytext">Text goes here!</div>
+          </td>
+        </tr>
+      </table>
+    </div>
+</div>
+
+
+
+
+<div class="container">
+
+  <div class="hero-content">
+    
+    <table cellspacing="25">
+      <tr>
+        <td><center><img class="myphoto circular" src="./assets/images/Samuel.jpeg" alt="George Asare's image"></center></td>
+      </tr>
+      <tr>
+        <td >
+          <div class="headeranchor">
+            <h2>Samuel Asare, Ph.D</h2><a href="https://www.linkedin.com/in/samuel-asare-74a7177a/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div> <em>
+            <p class="headeranchor">Advisor (Economics)
+            </p>
+          </em>
+
+          <div class="ordinarytext">
+            Samuel is a Principal Scientist in the Tobacco Control Research, 
+            Department of Surveillance and Health Equity Science at the American Cancer Society. 
+            He obtained his Ph.D. in Economics from the Andrew Young School of Policy Studies, 
+            Georgia State University (2021). Additionally, he holds an M.A. in Economics from the 
+            University of Akron, Ohio (2014), and a B.A. in Economics and Mathematics from the University of Ghana (2012).
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="hero-slider">
+    <table cellspacing="25">
+      <tr>
+        <td><center><img class="myphoto circular" src="./assets/images/Mark.jpeg" alt="Mark Asare's image"></center></td>
+      </tr>
+      <tr>
+        <td >
+          <div class="headeranchor">
+            <h2>Mark Asare</h2><a href="https://www.linkedin.com/in/markasare" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+        </div> <em>
+            <p class="headeranchor">Advisor (Data Science)
+            </p>
+          </em>
+          <div class="ordinarytext">With an interest in DL/ML/AI, Mark is highly proficient in Python and Linux/Unix shell scripting.
+            His familiarity with API integration (REST API and Fast API) comes in handy. Mark has work experience in working in NLP and Data Science as a whole.
+            He has extensive knowledge on the applicability of a variety of Machine Learning tools including but not limited to transformers (especially <strong><em>BERT</em></strong>),
+            neural machine translations, <b>word embeddings</b>, locality sensitive hashing, speech synthesis, speech recognition,
+            and model evaluation and selection in solving real life problems. Mark takes delight in building Neural Networks to solve real life problems.</div>
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+</section>
+    </article>
+
+
+
+
+  </main>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+ 
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <div id="footer"></div>
+</body>
+
+</html>
