@@ -66,10 +66,96 @@
 
 <body>
 
-  <div id="header"></div>
+
   <!-- 
     - #HEADER
   -->
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="index.html" class="logo">
+        <img src="./assets/images/gb.png" width="74" height="24" alt="GABS Home" class="logo-light">
+        <img src="./assets/images/gb.png" width="74" height="24" alt="GABS home" class="logo-dark">
+      </a>
+
+      <nav class="navbar" data-navbar>
+
+        <div class="navbar-top">
+          <a href="index.html" class="logo">
+            <img src="./assets/images/gb.png" width="74" height="24" alt="GABS Home">
+          </a>
+
+          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+        </div>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="aboutus.html" class="navbar-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Projects</a>
+          </li>
+          <li>
+            <a href="team.html" class="navbar-link">Our Team</a>
+          </li>
+          <li>
+            <a href="#" class="navbar-link">Data Privacy Policy</a>
+          </li>
+        </ul>
+
+        <div class="wrapper">
+          <a href="mailto:info@gabsrclc.com" class="contact-link">info@gabsrclc.com</a>
+          <a href="tel:+233207087945" class="contact-link">(+233) 20 708 7945</a>
+        </div>
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
 
 
   <main>
@@ -93,13 +179,21 @@
             <tr>
               <td >
                 <div class="headeranchor">
-                  <h2>George Asare</h2><a href="https://www.linkedin.com/in/george-asare-b5943b9b/" class="social-link">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                  </a>
-              </div> <em>
-                  <p class="headeranchor">Chief Executive Officer
-                  </p>
-                </em>
+                  <h2>George Asare</h2>
+                  <em>
+                    <p class="headeranchor">Chief Executive Officer
+                    </p>
+                  </em>
+
+                  <ul class="social-list">
+                    <li>
+                      <a href="https://www.linkedin.com/in/george-asare-b5943b9b/" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+
+              </div> 
 
                 <div class="ordinarytext">George Asare holds an MBA in Accounting and Finance from the University of Professional Studies,
                      Accra and a Bachelor of Arts degree in Economics with Philosophy from the University of Ghana, Legon.
@@ -119,13 +213,19 @@
             <tr>
               <td >
                 <div class="headeranchor">
-                  <h2>Albert Opoku Frimpong, Ph.D</h2><a href="https://www.linkedin.com/in/dr-albert-opoku-frimpong-2093b3173/" class="social-link">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                  </a>
-              </div> <em>
-                  <p class="headeranchor">Director and Research Consultant
-                  </p>
-                </em>
+                  <h2>Albert Opoku Frimpong, Ph.D</h2>
+                  <em>
+                    <p class="headeranchor">Director and Research Consultant
+                    </p>
+                  </em>
+                  <ul class="social-list">
+                    <li>
+                      <a href="https://www.linkedin.com/in/dr-albert-opoku-frimpong-2093b3173/" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                      </a>
+                    </li>
+                  </ul>
+              </div>
                 <div class="ordinarytext">
                   Dr. Frimpong is an Economist. He is a Director at GABS Research and a Lecturer at 
                   University of Professional Studies, Accra (UPSA). He served as a consultant for a number 
@@ -148,13 +248,12 @@
         <tr>
           <td >
             <div class="headeranchor">
-              <h2>Rose Yaa Asare</h2><a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
-          </div> <em>
-              <p class="headeranchor">Administrative Secretary and Principal Research Assistant
-              </p>
-            </em>
+              <h2>Rose Yaa Asare</h2>
+              <em>
+                <p class="headeranchor">Administrative Secretary and Principal Research Assistant
+                </p>
+              </em>
+          </div>
 
             <div class="ordinarytext">
               Rose Yaa Asare holds a Master of Arts (MA) degree in Migration Studies and a Bachelor 
@@ -180,14 +279,12 @@
         <tr>
           <td >
             <div class="headeranchor">
-              <h2>Prince Mensah</h2><a href="#" class="social-link">
-                <ion-icon name="logo-linkedin"></ion-icon>
-              </a>
+              <h2>Prince Mensah</h2>
           </div> <em>
               <p class="headeranchor">CAPI Developer / Data Analyst
               </p>
             </em>
-            <div class="ordinarytext">Text goes here!</div>
+            <div class="ordinarytext"> </div>
           </td>
         </tr>
       </table>
@@ -208,13 +305,25 @@
       <tr>
         <td >
           <div class="headeranchor">
-            <h2>Samuel Asare, Ph.D</h2><a href="https://www.linkedin.com/in/samuel-asare-74a7177a/" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-        </div> <em>
-            <p class="headeranchor">Advisor (Economics)
-            </p>
-          </em>
+            <h2>Samuel Asare, Ph.D.</h2>
+            <em>
+              <p class="headeranchor">Advisor (Economist &amp; Researcher)
+              </p>
+              <p class="ordinarytext">American Cancer Society (USA)</p>
+            </em>
+            <ul class="social-list">
+              <li>
+                <a href="https://www.linkedin.com/in/samuel-asare-74a7177a/" class="social-link">
+                  <ion-icon name="logo-linkedin"></ion-icon>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.asaresamuel.com/">
+                  <ion-icon name="globe"></ion-icon>
+                </a>
+              </li>
+            </ul>
+        </div>
 
           <div class="ordinarytext">
             Samuel is a Principal Scientist in the Tobacco Control Research, 
@@ -236,18 +345,24 @@
       <tr>
         <td >
           <div class="headeranchor">
-            <h2>Mark Asare</h2><a href="https://www.linkedin.com/in/markasare" class="social-link">
-              <ion-icon name="logo-linkedin"></ion-icon>
-            </a>
-        </div> <em>
-            <p class="headeranchor">Advisor (Data Science)
-            </p>
-          </em>
-          <div class="ordinarytext">With an interest in DL/ML/AI, Mark is highly proficient in Python and Linux/Unix shell scripting.
-            His familiarity with API integration (REST API and Fast API) comes in handy. Mark has work experience in working in NLP and Data Science as a whole.
-            He has extensive knowledge on the applicability of a variety of Machine Learning tools including but not limited to transformers (especially <strong><em>BERT</em></strong>),
-            neural machine translations, <b>word embeddings</b>, locality sensitive hashing, speech synthesis, speech recognition,
-            and model evaluation and selection in solving real life problems. Mark takes delight in building Neural Networks to solve real life problems.</div>
+            <h2>Mark Asare</h2> <em>
+              <p class="headeranchor">Advisor (Data Scientist)
+              </p>
+            </em>
+            <ul class="social-list">
+              <li><a href="https://www.linkedin.com/in/markasare" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a></li>
+            </ul>
+            
+        </div>
+          <div class="ordinarytext">
+            Mark is interested the applications of theoretical statistical methods in solving real-world problems. 
+            Mark possesses advanced knowledge in Machine Learning and has built and deployed several robust Deep Learning models. 
+            Not only has he headed several projects in NLP but  also succeeded in the other areas 
+            of Data Science in its entirety. Currently, he is highly proficient in Python, Django, HTML, GIT, Linux, Tensorflow, Jenkins, and PyTorch. 
+            Mark holds an MSc. degree (Laurea Magistrale) in Stochastics and Data Science from Università degli Studi di Torino.
+          </div>
         </td>
       </tr>
     </table>
@@ -266,7 +381,119 @@
     - #FOOTER
   -->
  
+  <footer class="footer">
+    <div class="container grid-list">
 
+      <div class="footer-brand">
+
+        <a href="index.html" class="logo">
+          <img src="./assets/images/gb.png" width="74" height="24" alt="Adex home">
+        </a>
+
+        <p class="footer-text">
+          &copy; 2023 gabsrclc.com<br> All rights reserved
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/kojoponq" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.twitter.com/siabanku" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/markasare" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/kojoponk/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://github.com/markasare/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Get in Touch</p>
+        </li>
+
+        <li>
+          <address class="footer-text">
+            Plot # 5, Haatso-Ecomog, Accra, Ghana
+          </address>
+        </li>
+
+        <li>
+          <a href="mailto:gabsrclc.com" class="footer-link">info@gabsrclc.com</a>
+        </li>
+
+        <li>
+          <a href="tel:+233207087945" class="footer-link">(+233) 20 708 7945</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Learn More</p>
+        </li>
+
+        <li>
+          <a href="aboutus.html" class="footer-link">About Us</a>
+        </li>
+
+        <li>
+          <a href="aboutus.html" class="footer-link">Our Story</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Projects</a>
+        </li>
+
+        <li>
+          <a href="#" class="footer-link">Privacy Policy</a>
+        </li>
+
+      </ul>
+
+      <div class="footer-list">
+
+        <p class="h4 footer-list-title">Our Newsletter</p>
+
+        <p class="footer-text">
+          Subscribe to our newsletter to get our news & deals delivered to you.
+        </p>
+
+        <form action="" class="input-wrapper">
+          <input type="email" name="email_address" placeholder="Email Address" required class="input-field">
+
+          <button type="submit" class="submit-btn">Join</button>
+        </form>
+
+      </div>
+
+    </div>
+  </footer>
 
 
 
@@ -281,7 +508,7 @@
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-  <div id="footer"></div>
+
 </body>
 
 </html>
